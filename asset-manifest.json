@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Projet-de-validation-1-react/static/css/main.a3c611cd.css",
+    "main.js": "/Projet-de-validation-1-react/static/js/main.6f7f237d.js",
+    "static/js/453.8a9a44af.chunk.js": "/Projet-de-validation-1-react/static/js/453.8a9a44af.chunk.js",
+    "index.html": "/Projet-de-validation-1-react/index.html",
+    "main.a3c611cd.css.map": "/Projet-de-validation-1-react/static/css/main.a3c611cd.css.map",
+    "main.6f7f237d.js.map": "/Projet-de-validation-1-react/static/js/main.6f7f237d.js.map",
+    "453.8a9a44af.chunk.js.map": "/Projet-de-validation-1-react/static/js/453.8a9a44af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3c611cd.css",
+    "static/js/main.6f7f237d.js"
+  ]
+}
