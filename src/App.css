@@ -1,19 +1,22 @@
-.header{
-  text-align: left;
-  border-bottom: 1px double gray;
+.corps{
+  display: flex;
+  padding: 0 20px;
 }
-.ID{
-  font-weight: 700;
+h3{
   text-decoration: underline;
 }
-.title:hover{
-  background-color: aqua;
+.left{
+  display: grid;
+  width: 50%;
+  height: 400px;
+  padding: 20px 50px;
+  margin: 5px;
+  overflow-y: scroll;
+  border: 2px dotted gray;
 }
-
-.body:hover{
-  background-color: #f0d22c;
-}
-.body-text, .title-text{
-  font-weight: 400;
-  margin-left: 10px;
+.right{
+  width: 50%;
+  padding: 20px 50px;
+  border: 2px dashed gray;
+  margin: 5px;
 }
