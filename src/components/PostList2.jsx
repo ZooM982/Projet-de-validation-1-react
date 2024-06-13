@@ -25,7 +25,7 @@ function PostList2() {
       <h1>Posts</h1>
       <div className="corps">
         <div className="left">
-          <h1>Voir tous les post</h1>
+          <h2>Voir tous les post</h2>
           {posts.map((post) => (
             <div key={post.id}>
               <p>Title: {post.title}</p>
@@ -37,7 +37,7 @@ function PostList2() {
         </div>
         {selectedPost && (
           <div className="right">
-            <h1>Voir les details du post selectionné</h1>
+            <h2>Voir les details du post selectionné</h2>
             <h2>Title: {selectedPost.title}</h2>
             <p>Body: {selectedPost.body}</p>
           </div>

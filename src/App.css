@@ -2,7 +2,7 @@
   display: flex;
   padding: 0 20px;
 }
-h3{
+h2{
   text-decoration: underline;
 }
 .left{
@@ -19,4 +19,22 @@ h3{
   padding: 20px 50px;
   border: 2px dashed gray;
   margin: 5px;
+}
+
+@media screen and (max-width:800px) {
+  .corps{
+    display: grid;
+    padding: 0px;
+  }
+  .left{
+    height: 250px;
+  }
+  .left, .right{
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+  }
+  h2{
+    font-size: 20px;
+  }
 }
